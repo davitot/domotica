@@ -10,8 +10,8 @@
 #define OLED_RESET LED_BUILTIN  //4
 Adafruit_SSD1306 display(OLED_RESET);
 Connector my_conn;
-char* MySql_user = "david";
-char* MySql_password = "qup4mcax";
+char* MySql_user = "xxxxx";
+char* MySql_password = "xxxxxx";
 // IP del host MySql
 IPAddress MySql_IP(192, 168, 1, 107);
 char query[2048];
@@ -39,8 +39,8 @@ dht11 DHT11;
 #endif
 
 bool estatus = false;
-const char* ssid = "WLAN_DAV";
-const char* password = "Qup_4_mcax";
+const char* ssid = "xxxxx";
+const char* password = "xxxxx";
 int displayTime();
 //int inicio = 0;
 
